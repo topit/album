@@ -13,10 +13,10 @@ html, body {
   align-items: center;
   justify-content: center;
 }
-.wrap img {
+#wrap img {
   width: 300px;
 }
-.wrap{
+#wrap{
   display: none;
   position: relative;
 }
@@ -30,7 +30,7 @@ html, body {
   border-radius: 5px;
   box-shadow: 0 0 5px #ccc;
 }
-.mask {
+#mask {
   display: none;
   -ms-align-items: center;
   align-items: center;
@@ -42,7 +42,7 @@ html, body {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 999;
 }
-.mask img {
+#mask img {
   /*position: absolute;*/
   opacity: 1;
   border-radius: 5px;
